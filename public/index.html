@@ -3,28 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Google Search Export</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
 
-    <h1>Google Search Export</h1>
+        <h1>Google Search Export</h1>
 
-    <input
-        type="text"
-        id="searchInput"
-        placeholder="Zadejte klíčové slovo"
-    >
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Zadejte klíčové slovo"
+        >
 
-    <button id="searchBtn">
-        Hledat
-    </button>
+        <button id="searchBtn">Hledat</button>
+        <button id="downloadBtn">Stáhnout JSON</button>
 
-    <button id="downloadBtn">
-        Stáhnout JSON
-    </button>
+        <pre id="results"></pre>
 
-    <pre id="results"></pre>
+    </div>
 
     <script src="app.js"></script>
-
 </body>
 </html> 
